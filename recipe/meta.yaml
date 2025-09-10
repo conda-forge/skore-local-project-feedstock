@@ -1,5 +1,5 @@
 {% set name = "skore-local-project" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skore_local_project-{{ version }}.tar.gz
-  sha256: dab2404983c41bb2b84bd6247849b70c27c467d8dd449a0e2d9c495fa8cf7f69
+  sha256: 65c326c776f514a2a56d7d8cf18218de6f195453e3479db6ad874f8cf2c08dd9
 
 build:
   entry_points:
